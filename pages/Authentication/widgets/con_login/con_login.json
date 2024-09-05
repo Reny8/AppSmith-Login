@@ -1,14 +1,14 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "{{'radial-gradient(circle, rgba(66,178,126,1) 0%, rgba(19,50,36,1) 43%, rgba(0,0,0,1) 100%)'}}",
   "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 64,
+  "bottomRow": 72,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
-      "bottomRow": 640,
+      "bottomRow": 630,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -40,13 +40,18 @@
   "displayName": "Container",
   "dynamicBindingPathList": [
     {
-      "key": "borderRadius"
+      "key": "boxShadow"
     },
     {
-      "key": "boxShadow"
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -55,25 +60,25 @@
   "isLoading": false,
   "isVisible": true,
   "key": "wa7a1coj08",
-  "leftColumn": 12,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "originalBottomRow": 64,
-  "originalTopRow": 0,
+  "originalBottomRow": 72,
+  "originalTopRow": 9,
   "parentColumnSpace": 23.8125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 43,
+  "rightColumn": 63,
   "searchTags": [
     "div",
     "parent",
     "group"
   ],
   "shouldScrollContents": true,
-  "topRow": 0,
+  "topRow": 9,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "s1b0qjafgz",
